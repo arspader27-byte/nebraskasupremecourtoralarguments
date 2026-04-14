@@ -36,7 +36,7 @@ FEED_SELF_URL = os.environ.get(
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; PodcastFeedBot/1.0; "
-        "+https://github.com/yourusername/nebraska-sc-podcast)"
+        "+https://github.com/arspader27-byte/nebraska-sc-podcast)"
     )
 }
 REQUEST_DELAY = 1.0   # seconds between requests — be polite
