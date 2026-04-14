@@ -30,13 +30,13 @@ FEED_LINK = ARCHIVE_URL
 # Set this to your actual GitHub Pages URL once deployed:
 FEED_SELF_URL = os.environ.get(
     "FEED_SELF_URL",
-    "https://arspader27-byte.github.io/nebraska-sc-podcast/nebraska-sc-oral-arguments.xml",
+    "https://yourusername.github.io/nebraska-sc-podcast/nebraska-sc-oral-arguments.xml",
 )
 
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; PodcastFeedBot/1.0; "
-        "+https://github.com/arspader27-byte/nebraska-sc-podcast)"
+        "+https://github.com/yourusername/nebraska-sc-podcast)"
     )
 }
 REQUEST_DELAY = 1.0   # seconds between requests — be polite
@@ -117,7 +117,11 @@ def scrape_all_cases() -> list[dict]:
         url = ARCHIVE_URL if page == 0 else f"{ARCHIVE_URL}?page={page}"
         print(f"Scraping archive page {page + 1}: {url}")
         try:
-            soup = get_soup(url)
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+            print(f"  HTTP status: {resp.status_code}")
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            print(f"  Page title: {soup.title.string if soup.title else 'N/A'}")
         except Exception as exc:
             print(f"  Error fetching page {page}: {exc}")
             break
