@@ -37,6 +37,19 @@ jobs:
           FEED_SELF_URL: https://arspader27-byte.github.io/nebraskasupremecourtoralarguments/nebraska-sc-oral-arguments.xml
         run: python scrape.py
 
+      - name: Check scraper output
+        run: |
+          echo "=== Files in working directory ==="
+          ls -la
+          echo "=== Checking for XML file ==="
+          if [ -f nebraska-sc-oral-arguments.xml ]; then
+            echo "XML file found! Size: $(wc -c < nebraska-sc-oral-arguments.xml) bytes"
+            head -20 nebraska-sc-oral-arguments.xml
+          else
+            echo "ERROR: XML file was not created by the scraper."
+            exit 1
+          fi
+
       - name: Commit and push updated feed
         run: |
           git config user.name  "github-actions[bot]"
