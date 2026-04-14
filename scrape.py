@@ -30,7 +30,7 @@ FEED_LINK = ARCHIVE_URL
 # Set this to your actual GitHub Pages URL once deployed:
 FEED_SELF_URL = os.environ.get(
     "FEED_SELF_URL",
-    "https://yourusername.github.io/nebraska-sc-podcast/nebraska-sc-oral-arguments.xml",
+    "https://arspader27-byte.github.io/nebraska-sc-podcast/nebraska-sc-oral-arguments.xml",
 )
 
 HEADERS = {
