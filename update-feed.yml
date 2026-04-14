@@ -32,7 +32,7 @@ jobs:
       - name: Run scraper
         env:
           # Replace this with your actual GitHub Pages URL after first deploy
-          FEED_SELF_URL: https://yourusername.github.io/nebraska-sc-podcast/nebraska-sc-oral-arguments.xml
+          FEED_SELF_URL: https://arspader27-byte.github.io/nebraska-sc-podcast/nebraska-sc-oral-arguments.xml
         run: python scrape.py
 
       - name: Commit and push updated feed
