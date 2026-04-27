@@ -2,24 +2,23 @@ name: Update podcast feed
 
 on:
   schedule:
-    # Runs every Monday and Thursday at 8:00 AM Central Time (14:00 UTC)
-    # Adjust the cron expression if you want a different schedule.
-    # Cron syntax: minute hour day-of-month month day-of-week
     - cron: "0 14 * * 1,4"
-
-  # Allow running manually from the GitHub Actions tab
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   update-feed:
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write   # needed to push the updated XML back to the repo
+      contents: write
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,19 +26,72 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install beautifulsoup4
 
-      - name: Run scraper
+      - name: Fetch archive pages with curl
+        run: |
+          mkdir -p pages
+          page=0
+          while [ $page -le 85 ]; do
+            url="https://nebraskajudicial.gov/courts/supreme-court/supreme-court-oral-argument-archive?page=${page}"
+            echo "Fetching page $page..."
+            http_code=$(curl -s -o "pages/page_${page}.html" -w "%{http_code}" \
+              -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+              -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" \
+              -H "Accept-Language: en-US,en;q=0.9" \
+              -H "Accept-Encoding: gzip, deflate, br" \
+              -H "Connection: keep-alive" \
+              -H "Upgrade-Insecure-Requests: 1" \
+              -H "Sec-Fetch-Dest: document" \
+              -H "Sec-Fetch-Mode: navigate" \
+              -H "Sec-Fetch-Site: none" \
+              -H "Cache-Control: max-age=0" \
+              --compressed \
+              --max-time 30 \
+              "$url")
+            echo "  HTTP $http_code"
+            # Check if page has any case content - if not, we've gone past the last page
+            if ! grep -q "views-row-inner" "pages/page_${page}.html" 2>/dev/null; then
+              echo "  No cases on page $page, stopping."
+              rm -f "pages/page_${page}.html"
+              break
+            fi
+            page=$((page + 1))
+            sleep 1
+          done
+          echo "Downloaded $(ls pages/*.html 2>/dev/null | wc -l) page(s)"
+          ls -la pages/
+
+      - name: Check fetch results
+        run: |
+          if [ -z "$(ls pages/*.html 2>/dev/null)" ]; then
+            echo "ERROR: No pages were downloaded successfully."
+            exit 1
+          fi
+          echo "First page preview:"
+          head -100 pages/page_0.html | grep -i "views-row\|views-grouping\|case-number\|county" | head -20
+
+      - name: Run scraper on downloaded pages
         env:
-          # Replace this with your actual GitHub Pages URL after first deploy
-          FEED_SELF_URL: https://arspader27-byte.github.io/nebraska-sc-podcast/nebraska-sc-oral-arguments.xml
+          FEED_SELF_URL: https://arspader27-byte.github.io/nebraskasupremecourtoralarguments/nebraska-sc-oral-arguments.xml
         run: python scrape.py
+
+      - name: Verify output
+        run: |
+          if [ ! -f nebraska-sc-oral-arguments.xml ]; then
+            echo "ERROR: XML file was not created."
+            exit 1
+          fi
+          echo "XML file created, size: $(wc -c < nebraska-sc-oral-arguments.xml) bytes"
+          echo "Episode count: $(grep -c '<item>' nebraska-sc-oral-arguments.xml)"
+          head -30 nebraska-sc-oral-arguments.xml
 
       - name: Commit and push updated feed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/arspader27-byte/nebraskasupremecourtoralarguments.git
+          git pull --rebase origin main
           git add nebraska-sc-oral-arguments.xml
-          # Only commit if the file actually changed
           git diff --cached --quiet || git commit -m "chore: update podcast feed $(date -u +'%Y-%m-%d')"
           git push
