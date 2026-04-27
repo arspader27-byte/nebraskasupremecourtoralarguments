@@ -32,6 +32,12 @@ FEED_SELF_URL = os.environ.get(
     "https://arspader27-byte.github.io/nebraskasupremecourtoralarguments/nebraska-sc-oral-arguments.xml",
 )
 
+# Titles that look like date strings rather than case names — skip these
+DATE_TITLE_RE = re.compile(
+    r"^Arguments\s+on\s+\d|^\d{1,2}/\d{1,2}/\d{4}|^Oral\s+Arguments?\s+[-–]\s+\d",
+    re.IGNORECASE,
+)
+
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -85,16 +91,22 @@ def scrape_page(html: str) -> list[dict]:
 
         # Individual case rows
         if element.name == "div" and "views-row-inner" in element.get("class", []):
-            title_el   = element.select_one(".views-field-title a")
+            title_el    = element.select_one(".views-field-title a")
             case_num_el = element.select_one(".views-field-field-case-numbers .field-content")
-            county_el  = element.select_one(".views-field-field-court-number .field-content")
-            audio_el   = element.select_one('source[src*="/sc/audio/"]')
+            county_el   = element.select_one(".views-field-field-court-number .field-content")
+            audio_el    = element.select_one('source[src*="/sc/audio/"]')
 
             if not title_el:
                 continue
 
             title = title_el.get_text(strip=True)
+
+            # Skip video-only entries
             if "video" in title.lower():
+                continue
+
+            # Skip entries whose title is actually a date/index page rather than a case name
+            if DATE_TITLE_RE.match(title):
                 continue
 
             href = title_el.get("href", "")
@@ -113,7 +125,7 @@ def scrape_page(html: str) -> list[dict]:
                 "case_number": case_number.strip(),
                 "county":      county,
                 "case_url":    case_url,
-                "audio_url":   audio_src,
+                "audio_url":   audio_src,   # may be empty — handled in RSS builder
                 "description": "",
             })
 
@@ -122,8 +134,10 @@ def scrape_page(html: str) -> list[dict]:
 
 def load_all_cases() -> list[dict]:
     """Read every downloaded HTML file from pages/ in order."""
-    html_files = sorted(glob.glob(f"{PAGES_DIR}/page_*.html"),
-                        key=lambda p: int(re.search(r"page_(\d+)", p).group(1)))
+    html_files = sorted(
+        glob.glob(f"{PAGES_DIR}/page_*.html"),
+        key=lambda p: int(re.search(r"page_(\d+)", p).group(1)),
+    )
 
     if not html_files:
         print(f"ERROR: No HTML files found in {PAGES_DIR}/")
@@ -137,14 +151,17 @@ def load_all_cases() -> list[dict]:
         print(f"  {path}: {len(page_cases)} cases")
         all_cases.extend(page_cases)
 
-    print(f"\nTotal: {len(all_cases)} cases across {len(html_files)} page(s).")
+    with_audio    = sum(1 for c in all_cases if c["audio_url"])
+    without_audio = sum(1 for c in all_cases if not c["audio_url"])
+    print(f"\nTotal: {len(all_cases)} cases ({with_audio} with audio, {without_audio} awaiting audio)")
     return all_cases
 
 
 def build_descriptions(cases: list[dict]) -> list[dict]:
-    """Build show-notes text from structured data (no extra HTTP requests needed)."""
+    """Build show-notes text from structured data."""
     for case in cases:
         date_str = case["date"].strftime("%B %-d, %Y") if case["date"] else "Unknown date"
+        audio_note = "" if case["audio_url"] else "\n\nNote: Audio not yet available for this argument."
         case["description"] = (
             f"Nebraska Supreme Court Oral Argument\n\n"
             f"Case: {case['title']}\n"
@@ -152,6 +169,7 @@ def build_descriptions(cases: list[dict]) -> list[dict]:
             f"County: {case['county']} County\n"
             f"Argument Date: {date_str}\n\n"
             f"Case details: {case['case_url']}"
+            f"{audio_note}"
         )
     return cases
 
@@ -168,6 +186,14 @@ def build_rss(cases: list[dict]) -> str:
         date_str = case["date"].strftime("%B %-d, %Y") if case["date"] else ""
         subtitle = f"Case {case['case_number']} · {case['county']} County · {date_str}".strip(" ·")
 
+        # Only include <enclosure> when we actually have an audio URL.
+        # Omitting it entirely prevents podcast apps from showing a "no media" error.
+        enclosure_tag = (
+            f'\n      <enclosure url="{escape(case["audio_url"])}" type="audio/mpeg" length="0" />'
+            f'\n      <itunes:duration>0</itunes:duration>'
+            if case["audio_url"] else ""
+        )
+
         items.append(f"""    <item>
       <title>{escape(case['title'])}</title>
       <link>{escape(case['case_url'])}</link>
@@ -176,9 +202,7 @@ def build_rss(cases: list[dict]) -> str:
       <description>{escape(case['description'])}</description>
       <itunes:title>{escape(case['title'])}</itunes:title>
       <itunes:subtitle>{escape(subtitle)}</itunes:subtitle>
-      <itunes:summary>{escape(case['description'])}</itunes:summary>
-      <enclosure url="{escape(case['audio_url'])}" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
+      <itunes:summary>{escape(case['description'])}</itunes:summary>{enclosure_tag}
     </item>""")
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
