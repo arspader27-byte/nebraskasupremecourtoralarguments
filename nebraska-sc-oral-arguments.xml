@@ -7,7 +7,7 @@
     <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-oral-argument-archive</link>
     <description>Audio recordings of oral arguments before the Nebraska Supreme Court.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 17:43:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 19:19:01 GMT</lastBuildDate>
     <atom:link href="https://arspader27-byte.github.io/nebraskasupremecourtoralarguments/nebraska-sc-oral-arguments.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Nebraska Judicial Branch</itunes:author>
     <itunes:category text="Government" />
@@ -7644,8 +7644,8 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Dzingle v. Krcilek</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/dzingle-v-krcilek-0</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20240306_23-0330_0.mp3</guid>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/dzingle-v-krcilek</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20240306_23-0330.mp3</guid>
       <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
@@ -7654,7 +7654,7 @@ Case Number: S-23-0330
 County: Valley County
 Argument Date: March 6, 2024
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/dzingle-v-krcilek-0</description>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/dzingle-v-krcilek</description>
       <itunes:title>Dzingle v. Krcilek</itunes:title>
       <itunes:subtitle>Case S-23-0330 · Valley County · March 6, 2024</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
@@ -7664,8 +7664,8 @@ Case Number: S-23-0330
 County: Valley County
 Argument Date: March 6, 2024
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/dzingle-v-krcilek-0</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20240306_23-0330_0.mp3" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/dzingle-v-krcilek</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20240306_23-0330.mp3" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Dzingle v. Krcilek</title>
@@ -14453,31 +14453,6 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
 
 Note: Audio not yet available for this argument.</itunes:summary>
     </item>    <item>
-      <title>Badawi v. Albin</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/badawi-v-albin</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/21-0650_Badawi_v._Albin.wav</guid>
-      <pubDate>Wed, 30 Mar 2022 00:00:00 GMT</pubDate>
-      <description>Nebraska Supreme Court Oral Argument
-
-Case: Badawi v. Albin
-Case Number: S-21-0650
-County: Douglas County
-Argument Date: March 30, 2022
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/badawi-v-albin</description>
-      <itunes:title>Badawi v. Albin</itunes:title>
-      <itunes:subtitle>Case S-21-0650 · Douglas County · March 30, 2022</itunes:subtitle>
-      <itunes:summary>Nebraska Supreme Court Oral Argument
-
-Case: Badawi v. Albin
-Case Number: S-21-0650
-County: Douglas County
-Argument Date: March 30, 2022
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/badawi-v-albin</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/21-0650_Badawi_v._Albin.wav" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
-    </item>    <item>
       <title>State v. Cerros</title>
       <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-cerros-0</link>
       <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/21-0746_State_v._Cerros.wav</guid>
@@ -14501,6 +14476,31 @@ Argument Date: March 30, 2022
 
 Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-cerros-0</itunes:summary>
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/21-0746_State_v._Cerros.wav" type="audio/mpeg" length="0" />
+      <itunes:duration>0</itunes:duration>
+    </item>    <item>
+      <title>Badawi v. Albin</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/badawi-v-albin</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/21-0650_Badawi_v._Albin.wav</guid>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 GMT</pubDate>
+      <description>Nebraska Supreme Court Oral Argument
+
+Case: Badawi v. Albin
+Case Number: S-21-0650
+County: Douglas County
+Argument Date: March 30, 2022
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/badawi-v-albin</description>
+      <itunes:title>Badawi v. Albin</itunes:title>
+      <itunes:subtitle>Case S-21-0650 · Douglas County · March 30, 2022</itunes:subtitle>
+      <itunes:summary>Nebraska Supreme Court Oral Argument
+
+Case: Badawi v. Albin
+Case Number: S-21-0650
+County: Douglas County
+Argument Date: March 30, 2022
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/badawi-v-albin</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/21-0650_Badawi_v._Albin.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Schreiber Brothers Hog Company, LLC v. Schreiber</title>
@@ -30018,31 +30018,6 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-or
 Note: Audio not yet available for this argument.</itunes:summary>
     </item>    <item>
       <title>Christensen v. Gale (20)</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/christensen-v-gale-20-0</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180907_18-0825_all-chs_0.wav</guid>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate>
-      <description>Nebraska Supreme Court Oral Argument
-
-Case: Christensen v. Gale (20)
-Case Number: S-18-0825
-County: Lancaster County
-Argument Date: September 7, 2018
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/christensen-v-gale-20-0</description>
-      <itunes:title>Christensen v. Gale (20)</itunes:title>
-      <itunes:subtitle>Case S-18-0825 · Lancaster County · September 7, 2018</itunes:subtitle>
-      <itunes:summary>Nebraska Supreme Court Oral Argument
-
-Case: Christensen v. Gale (20)
-Case Number: S-18-0825
-County: Lancaster County
-Argument Date: September 7, 2018
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/christensen-v-gale-20-0</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180907_18-0825_all-chs_0.wav" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
-    </item>    <item>
-      <title>Christensen v. Gale (20)</title>
       <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/christensen-v-gale-20</link>
       <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180907_18-0825_all-chs.wav</guid>
       <pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate>
@@ -30067,29 +30042,29 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180907_18-0825_all-chs.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
-      <title>State v. Hood</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-hood-0</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/2019_02_28_NE_Supreme_Court_4_0.mp3</guid>
-      <pubDate>Fri, 31 Aug 2018 00:00:00 GMT</pubDate>
+      <title>Christensen v. Gale (20)</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/christensen-v-gale-20-0</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180907_18-0825_all-chs_0.wav</guid>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
-Case: State v. Hood
-Case Number: S-17-0637
-County: Garden County
-Argument Date: August 31, 2018
+Case: Christensen v. Gale (20)
+Case Number: S-18-0825
+County: Lancaster County
+Argument Date: September 7, 2018
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-hood-0</description>
-      <itunes:title>State v. Hood</itunes:title>
-      <itunes:subtitle>Case S-17-0637 · Garden County · August 31, 2018</itunes:subtitle>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/christensen-v-gale-20-0</description>
+      <itunes:title>Christensen v. Gale (20)</itunes:title>
+      <itunes:subtitle>Case S-18-0825 · Lancaster County · September 7, 2018</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
 
-Case: State v. Hood
-Case Number: S-17-0637
-County: Garden County
-Argument Date: August 31, 2018
+Case: Christensen v. Gale (20)
+Case Number: S-18-0825
+County: Lancaster County
+Argument Date: September 7, 2018
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-hood-0</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/2019_02_28_NE_Supreme_Court_4_0.mp3" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/christensen-v-gale-20-0</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180907_18-0825_all-chs_0.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>State v. Hood</title>
@@ -30115,6 +30090,31 @@ Argument Date: August 31, 2018
 
 Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-hood</itunes:summary>
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180831_17-0637_all-chs_0.wav" type="audio/mpeg" length="0" />
+      <itunes:duration>0</itunes:duration>
+    </item>    <item>
+      <title>State v. Hood</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-hood-0</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/2019_02_28_NE_Supreme_Court_4_0.mp3</guid>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 GMT</pubDate>
+      <description>Nebraska Supreme Court Oral Argument
+
+Case: State v. Hood
+Case Number: S-17-0637
+County: Garden County
+Argument Date: August 31, 2018
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-hood-0</description>
+      <itunes:title>State v. Hood</itunes:title>
+      <itunes:subtitle>Case S-17-0637 · Garden County · August 31, 2018</itunes:subtitle>
+      <itunes:summary>Nebraska Supreme Court Oral Argument
+
+Case: State v. Hood
+Case Number: S-17-0637
+County: Garden County
+Argument Date: August 31, 2018
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-hood-0</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/2019_02_28_NE_Supreme_Court_4_0.mp3" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>In re Adoption of Micah H.</title>
@@ -30393,31 +30393,6 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>State v. Avina-Murillo</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo-0</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180829_17-1302_all-chs_0.wav</guid>
-      <pubDate>Wed, 29 Aug 2018 00:00:00 GMT</pubDate>
-      <description>Nebraska Supreme Court Oral Argument
-
-Case: State v. Avina-Murillo
-Case Number: S-17-1302
-County: Douglas County
-Argument Date: August 29, 2018
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo-0</description>
-      <itunes:title>State v. Avina-Murillo</itunes:title>
-      <itunes:subtitle>Case S-17-1302 · Douglas County · August 29, 2018</itunes:subtitle>
-      <itunes:summary>Nebraska Supreme Court Oral Argument
-
-Case: State v. Avina-Murillo
-Case Number: S-17-1302
-County: Douglas County
-Argument Date: August 29, 2018
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo-0</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180829_17-1302_all-chs_0.wav" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
-    </item>    <item>
-      <title>State v. Avina-Murillo</title>
       <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo</link>
       <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180829_17-1302_all-chs.wav</guid>
       <pubDate>Wed, 29 Aug 2018 00:00:00 GMT</pubDate>
@@ -30440,6 +30415,31 @@ Argument Date: August 29, 2018
 
 Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo</itunes:summary>
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180829_17-1302_all-chs.wav" type="audio/mpeg" length="0" />
+      <itunes:duration>0</itunes:duration>
+    </item>    <item>
+      <title>State v. Avina-Murillo</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo-0</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180829_17-1302_all-chs_0.wav</guid>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 GMT</pubDate>
+      <description>Nebraska Supreme Court Oral Argument
+
+Case: State v. Avina-Murillo
+Case Number: S-17-1302
+County: Douglas County
+Argument Date: August 29, 2018
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo-0</description>
+      <itunes:title>State v. Avina-Murillo</itunes:title>
+      <itunes:subtitle>Case S-17-1302 · Douglas County · August 29, 2018</itunes:subtitle>
+      <itunes:summary>Nebraska Supreme Court Oral Argument
+
+Case: State v. Avina-Murillo
+Case Number: S-17-1302
+County: Douglas County
+Argument Date: August 29, 2018
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-avina-murillo-0</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/SC_20180829_17-1302_all-chs_0.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>State v. Nielsen</title>
@@ -31518,6 +31518,31 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Lindsay International Sales and Services, LLC v. Wegener</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener-0</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170830_16-1051_all-chs_0.wav</guid>
+      <pubDate>Wed, 02 May 2018 00:00:00 GMT</pubDate>
+      <description>Nebraska Supreme Court Oral Argument
+
+Case: Lindsay International Sales and Services, LLC v. Wegener
+Case Number: S-16-1051
+County: Platte County
+Argument Date: May 2, 2018
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener-0</description>
+      <itunes:title>Lindsay International Sales and Services, LLC v. Wegener</itunes:title>
+      <itunes:subtitle>Case S-16-1051 · Platte County · May 2, 2018</itunes:subtitle>
+      <itunes:summary>Nebraska Supreme Court Oral Argument
+
+Case: Lindsay International Sales and Services, LLC v. Wegener
+Case Number: S-16-1051
+County: Platte County
+Argument Date: May 2, 2018
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener-0</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170830_16-1051_all-chs_0.wav" type="audio/mpeg" length="0" />
+      <itunes:duration>0</itunes:duration>
+    </item>    <item>
+      <title>Lindsay International Sales and Services, LLC v. Wegener</title>
       <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener</link>
       <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20180502_16-1051_all-chs.wav</guid>
       <pubDate>Wed, 02 May 2018 00:00:00 GMT</pubDate>
@@ -31565,31 +31590,6 @@ Argument Date: May 2, 2018
 
 Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener-1</itunes:summary>
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20180502_16-1051_all-chs_0.wav" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
-    </item>    <item>
-      <title>Lindsay International Sales and Services, LLC v. Wegener</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener-0</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170830_16-1051_all-chs_0.wav</guid>
-      <pubDate>Wed, 02 May 2018 00:00:00 GMT</pubDate>
-      <description>Nebraska Supreme Court Oral Argument
-
-Case: Lindsay International Sales and Services, LLC v. Wegener
-Case Number: S-16-1051
-County: Platte County
-Argument Date: May 2, 2018
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener-0</description>
-      <itunes:title>Lindsay International Sales and Services, LLC v. Wegener</itunes:title>
-      <itunes:subtitle>Case S-16-1051 · Platte County · May 2, 2018</itunes:subtitle>
-      <itunes:summary>Nebraska Supreme Court Oral Argument
-
-Case: Lindsay International Sales and Services, LLC v. Wegener
-Case Number: S-16-1051
-County: Platte County
-Argument Date: May 2, 2018
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/lindsay-international-sales-and-services-llc-v-wegener-0</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170830_16-1051_all-chs_0.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Mays v. Midnite Dreams Inc.</title>
@@ -35793,56 +35793,6 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Kozal v. Nebraska Liquor Control Commission             ***</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_3.wav</guid>
-      <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
-      <description>Nebraska Supreme Court Oral Argument
-
-Case: Kozal v. Nebraska Liquor Control Commission             ***
-Case Number: S-17-0441
-County: Lancaster County
-Argument Date: August 29, 2017
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission</description>
-      <itunes:title>Kozal v. Nebraska Liquor Control Commission             ***</itunes:title>
-      <itunes:subtitle>Case S-17-0441 · Lancaster County · August 29, 2017</itunes:subtitle>
-      <itunes:summary>Nebraska Supreme Court Oral Argument
-
-Case: Kozal v. Nebraska Liquor Control Commission             ***
-Case Number: S-17-0441
-County: Lancaster County
-Argument Date: August 29, 2017
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_3.wav" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
-    </item>    <item>
-      <title>Kozal v. Nebraska Liquor Control Commission             ***</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission-1</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_5.wav</guid>
-      <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
-      <description>Nebraska Supreme Court Oral Argument
-
-Case: Kozal v. Nebraska Liquor Control Commission             ***
-Case Number: S-17-0441
-County: Lancaster County
-Argument Date: August 29, 2017
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission-1</description>
-      <itunes:title>Kozal v. Nebraska Liquor Control Commission             ***</itunes:title>
-      <itunes:subtitle>Case S-17-0441 · Lancaster County · August 29, 2017</itunes:subtitle>
-      <itunes:summary>Nebraska Supreme Court Oral Argument
-
-Case: Kozal v. Nebraska Liquor Control Commission             ***
-Case Number: S-17-0441
-County: Lancaster County
-Argument Date: August 29, 2017
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission-1</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_5.wav" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
-    </item>    <item>
-      <title>Kozal v. Nebraska Liquor Control Commission             ***</title>
       <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission-0</link>
       <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_4.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
@@ -35892,54 +35842,54 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_6.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
-      <title>State v. Jasa</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-0</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_4.wav</guid>
+      <title>Kozal v. Nebraska Liquor Control Commission             ***</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_3.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
-Case: State v. Jasa
-Case Number: S-16-0989
+Case: Kozal v. Nebraska Liquor Control Commission             ***
+Case Number: S-17-0441
 County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-0</description>
-      <itunes:title>State v. Jasa</itunes:title>
-      <itunes:subtitle>Case S-16-0989 · Lancaster County · August 29, 2017</itunes:subtitle>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission</description>
+      <itunes:title>Kozal v. Nebraska Liquor Control Commission             ***</itunes:title>
+      <itunes:subtitle>Case S-17-0441 · Lancaster County · August 29, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
 
-Case: State v. Jasa
-Case Number: S-16-0989
+Case: Kozal v. Nebraska Liquor Control Commission             ***
+Case Number: S-17-0441
 County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-0</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_4.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_3.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
-      <title>State v. Jasa</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-2</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_6.wav</guid>
+      <title>Kozal v. Nebraska Liquor Control Commission             ***</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission-1</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_5.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
-Case: State v. Jasa
-Case Number: S-16-0989
+Case: Kozal v. Nebraska Liquor Control Commission             ***
+Case Number: S-17-0441
 County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-2</description>
-      <itunes:title>State v. Jasa</itunes:title>
-      <itunes:subtitle>Case S-16-0989 · Lancaster County · August 29, 2017</itunes:subtitle>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission-1</description>
+      <itunes:title>Kozal v. Nebraska Liquor Control Commission             ***</itunes:title>
+      <itunes:subtitle>Case S-17-0441 · Lancaster County · August 29, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
 
-Case: State v. Jasa
-Case Number: S-16-0989
+Case: Kozal v. Nebraska Liquor Control Commission             ***
+Case Number: S-17-0441
 County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-2</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_6.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/kozal-v-nebraska-liquor-control-commission-1</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_17-0441_all-chs_5.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>State v. Jasa</title>
@@ -35992,54 +35942,54 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_5.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
-      <title>Hintz v. Farmers Cooperative Association                 (PFR)</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_3.wav</guid>
+      <title>State v. Jasa</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-0</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_4.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
-Case: Hintz v. Farmers Cooperative Association                 (PFR)
-Case Number: S-16-0267
-County: Douglas County
+Case: State v. Jasa
+Case Number: S-16-0989
+County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr</description>
-      <itunes:title>Hintz v. Farmers Cooperative Association                 (PFR)</itunes:title>
-      <itunes:subtitle>Case S-16-0267 · Douglas County · August 29, 2017</itunes:subtitle>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-0</description>
+      <itunes:title>State v. Jasa</itunes:title>
+      <itunes:subtitle>Case S-16-0989 · Lancaster County · August 29, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
 
-Case: Hintz v. Farmers Cooperative Association                 (PFR)
-Case Number: S-16-0267
-County: Douglas County
+Case: State v. Jasa
+Case Number: S-16-0989
+County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_3.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-0</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_4.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
-      <title>Hintz v. Farmers Cooperative Association                 (PFR)</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr-1</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_5.wav</guid>
+      <title>State v. Jasa</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-2</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_6.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
-Case: Hintz v. Farmers Cooperative Association                 (PFR)
-Case Number: S-16-0267
-County: Douglas County
+Case: State v. Jasa
+Case Number: S-16-0989
+County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr-1</description>
-      <itunes:title>Hintz v. Farmers Cooperative Association                 (PFR)</itunes:title>
-      <itunes:subtitle>Case S-16-0267 · Douglas County · August 29, 2017</itunes:subtitle>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-2</description>
+      <itunes:title>State v. Jasa</itunes:title>
+      <itunes:subtitle>Case S-16-0989 · Lancaster County · August 29, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
 
-Case: Hintz v. Farmers Cooperative Association                 (PFR)
-Case Number: S-16-0267
-County: Douglas County
+Case: State v. Jasa
+Case Number: S-16-0989
+County: Lancaster County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr-1</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_5.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-jasa-2</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0989_all-chs_6.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Hintz v. Farmers Cooperative Association                 (PFR)</title>
@@ -36092,34 +36042,59 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_6.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
-      <title>State v. Stone</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-1</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_3.wav</guid>
+      <title>Hintz v. Farmers Cooperative Association                 (PFR)</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_3.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
-Case: State v. Stone
-Case Number: S-16-0941
-County: Thayer County
+Case: Hintz v. Farmers Cooperative Association                 (PFR)
+Case Number: S-16-0267
+County: Douglas County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-1</description>
-      <itunes:title>State v. Stone</itunes:title>
-      <itunes:subtitle>Case S-16-0941 · Thayer County · August 29, 2017</itunes:subtitle>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr</description>
+      <itunes:title>Hintz v. Farmers Cooperative Association                 (PFR)</itunes:title>
+      <itunes:subtitle>Case S-16-0267 · Douglas County · August 29, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
 
-Case: State v. Stone
-Case Number: S-16-0941
-County: Thayer County
+Case: Hintz v. Farmers Cooperative Association                 (PFR)
+Case Number: S-16-0267
+County: Douglas County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-1</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_3.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_3.wav" type="audio/mpeg" length="0" />
+      <itunes:duration>0</itunes:duration>
+    </item>    <item>
+      <title>Hintz v. Farmers Cooperative Association                 (PFR)</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr-1</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_5.wav</guid>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
+      <description>Nebraska Supreme Court Oral Argument
+
+Case: Hintz v. Farmers Cooperative Association                 (PFR)
+Case Number: S-16-0267
+County: Douglas County
+Argument Date: August 29, 2017
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr-1</description>
+      <itunes:title>Hintz v. Farmers Cooperative Association                 (PFR)</itunes:title>
+      <itunes:subtitle>Case S-16-0267 · Douglas County · August 29, 2017</itunes:subtitle>
+      <itunes:summary>Nebraska Supreme Court Oral Argument
+
+Case: Hintz v. Farmers Cooperative Association                 (PFR)
+Case Number: S-16-0267
+County: Douglas County
+Argument Date: August 29, 2017
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/hintz-v-farmers-cooperative-association-pfr-1</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0267_all-chs_5.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>State v. Stone</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-0</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_6.wav</guid>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_5.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
@@ -36128,7 +36103,7 @@ Case Number: S-16-0941
 County: Thayer County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-0</description>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone</description>
       <itunes:title>State v. Stone</itunes:title>
       <itunes:subtitle>Case S-16-0941 · Thayer County · August 29, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
@@ -36138,8 +36113,8 @@ Case Number: S-16-0941
 County: Thayer County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-0</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_6.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_5.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>State v. Stone</title>
@@ -36168,8 +36143,8 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>State v. Stone</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_5.wav</guid>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-0</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_6.wav</guid>
       <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
@@ -36178,7 +36153,7 @@ Case Number: S-16-0941
 County: Thayer County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone</description>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-0</description>
       <itunes:title>State v. Stone</itunes:title>
       <itunes:subtitle>Case S-16-0941 · Thayer County · August 29, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
@@ -36188,8 +36163,33 @@ Case Number: S-16-0941
 County: Thayer County
 Argument Date: August 29, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_5.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-0</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_6.wav" type="audio/mpeg" length="0" />
+      <itunes:duration>0</itunes:duration>
+    </item>    <item>
+      <title>State v. Stone</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-1</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_3.wav</guid>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 GMT</pubDate>
+      <description>Nebraska Supreme Court Oral Argument
+
+Case: State v. Stone
+Case Number: S-16-0941
+County: Thayer County
+Argument Date: August 29, 2017
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-1</description>
+      <itunes:title>State v. Stone</itunes:title>
+      <itunes:subtitle>Case S-16-0941 · Thayer County · August 29, 2017</itunes:subtitle>
+      <itunes:summary>Nebraska Supreme Court Oral Argument
+
+Case: State v. Stone
+Case Number: S-16-0941
+County: Thayer County
+Argument Date: August 29, 2017
+
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-stone-1</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170829_16-0941_all-chs_3.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>City of Lincoln, Nebraska v. County of Lancaster, Nebraska</title>
@@ -36719,29 +36719,29 @@ Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-ca
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170427_16-0746_all-chs.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
-      <title>State v. Robbins</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-robbins</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170427_16-0155_all-chs.wav</guid>
+      <title>State v. McColery</title>
+      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-mccolery-0</link>
+      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170427_16-1017_all-chs.wav</guid>
       <pubDate>Thu, 27 Apr 2017 00:00:00 GMT</pubDate>
       <description>Nebraska Supreme Court Oral Argument
 
-Case: State v. Robbins
-Case Number: S-16-0155
+Case: State v. McColery
+Case Number: S-16-1017
 County: Lancaster County
 Argument Date: April 27, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-robbins</description>
-      <itunes:title>State v. Robbins</itunes:title>
-      <itunes:subtitle>Case S-16-0155 · Lancaster County · April 27, 2017</itunes:subtitle>
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-mccolery-0</description>
+      <itunes:title>State v. McColery</itunes:title>
+      <itunes:subtitle>Case S-16-1017 · Lancaster County · April 27, 2017</itunes:subtitle>
       <itunes:summary>Nebraska Supreme Court Oral Argument
 
-Case: State v. Robbins
-Case Number: S-16-0155
+Case: State v. McColery
+Case Number: S-16-1017
 County: Lancaster County
 Argument Date: April 27, 2017
 
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-robbins</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170427_16-0155_all-chs.wav" type="audio/mpeg" length="0" />
+Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-mccolery-0</itunes:summary>
+      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/sc_20170427_16-1017_all-chs.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>    <item>
       <title>Doe v. McCoy</title>
@@ -45571,31 +45571,6 @@ Argument Date: September 1, 2015
 
 Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/state-v-henry-20</itunes:summary>
       <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/S-14-0519_0.wav" type="audio/mpeg" length="0" />
-      <itunes:duration>0</itunes:duration>
-    </item>    <item>
-      <title>Caton v. State</title>
-      <link>https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/caton-v-state</link>
-      <guid isPermaLink="false">https://nebraskajudicial.gov/sites/default/files/sc/audio/S-14-1144_0.wav</guid>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 GMT</pubDate>
-      <description>Nebraska Supreme Court Oral Argument
-
-Case: Caton v. State
-Case Number: S-14-1144
-County: Lancaster County
-Argument Date: September 1, 2015
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/caton-v-state</description>
-      <itunes:title>Caton v. State</itunes:title>
-      <itunes:subtitle>Case S-14-1144 · Lancaster County · September 1, 2015</itunes:subtitle>
-      <itunes:summary>Nebraska Supreme Court Oral Argument
-
-Case: Caton v. State
-Case Number: S-14-1144
-County: Lancaster County
-Argument Date: September 1, 2015
-
-Case details: https://nebraskajudicial.gov/courts/supreme-court/supreme-court-call/caton-v-state</itunes:summary>
-      <enclosure url="https://nebraskajudicial.gov/sites/default/files/sc/audio/S-14-1144_0.wav" type="audio/mpeg" length="0" />
       <itunes:duration>0</itunes:duration>
     </item>
   </channel>
